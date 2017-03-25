@@ -1,7 +1,7 @@
 # Getting Started
 
 
-### Installation
+## Installation
 
 Download Juliar from https://www.juliar.org/downloads.php
 
@@ -10,10 +10,10 @@ If you are a beginner or preffer a Graphical Window, then you can just double cl
 
 If you prefer a console/terminal, then open juliarCompiler.jar folder in terminal/console. 
 
-# Modes
+## Modes
 JuliarCompiler.jar works in 3 modes. It can be compiled, interpreted, and ran through FastCGI web services.
 
-# Compile
+## Compile
 JuliarCompiler.jar works on all platforms that have Java installed. So it is system independent!
 run it in CommandPrompt/Console using the following command:
 
@@ -24,7 +24,7 @@ java -jar JuliarCompiler.jar something.jrl output
 Where something.jrl is Juliar script and output is output name.
 Because Juliar compiles directly into Java bytecode, Juliar programs can run anywhere Java is installed.
 
-# Interpret
+## Interpret
 JuliarCompiler.jar can also interpret code for those people that want to tweak and tinker with the code on the go.
 You can have Juliar interpret by leaving out the output argument
 
@@ -33,7 +33,7 @@ java -jar JuliarCompiler.jar something.jrl
 `
 This will interpret the code and output the results on the screen. You can pipe the results to a file by using '>' followed by file name.
 
-# FastCGI
+## FastCGI
 JuliarCompiler.jar can also run as web service. This is a second form of interpreter. You can connect JuliarCompiler.jar
 to Apache, NGINX, Lighttpd, and many other services to process HTML files and output results to the user. JuliarCompiler.jar
 makes it very easy to have a web server running by providing configurations for most popular web servers.
@@ -44,13 +44,13 @@ java -jar -DFCGI_PORT=9000 JuliarCompiler.jar
 `
 
 
-# Why?
+## Why?
 You might be wondering, why should you use Juliar instead of Java? The reason is that Juliar is less imperative
 and more functional. It can however be used as Object Oriented programming language. Juliar aim is to provide
 the same features of any modern imperative language such as C++ and Java and put a twist by adding functional components.
 Juliar is easy, fast, and fun language to use.
 
-# Creating Juliar File
+## Creating Juliar File
 Create a text file called "something.jrl". jrl is the extension juliar uses for its files! You can name it anything you want as long as it has an extension of .jrl.
 First you need a main function,
 `
@@ -61,7 +61,7 @@ The main function is the entry point of the code. If you do not have a main func
 is so that when code run directly it will perform some action. You might not need to perform that action if the code is included in.
 Please keep in mind that if you have a main function in an included script, it won't run unless you explicitly call the main function in that included script.
 
-# Creating and calling a custom function
+## Creating and calling a custom function
 
 Creating a custom function is very simple:
 
@@ -80,36 +80,36 @@ functionToCall(x,y);
 
 Where x and y are variables. You can call custom functions the same way.
 
-# Hoisting
+## Hoisting
 
 Juliar supports function hoisting. Unlike C/C++, functions can be declared in any order (even if they are declared after a functional call).
 
-# Dynamic or Static Casting
+## Dynamic or Static Casting
 
 Juliar supports both static and dynamic casting. It is, however, recommended that you static type variables (i.e. declare their type such as int, float, double, etc)
 and dynamic cast the function, so that you don't need to create a template.
 
-# Function Overloading
+## Function Overloading
 
 Juliar currently doesn't support overloading. However, this may change in the future. Let us know how you feel!
 
-# Variable Declaration
+## Variable Declaration
 
 Variables are declared using one of the following declarations: `int`, `double`, `float`, `string`, `obj`. Please note, if you are not sure what type it is going to be, you can let the compiler
 decide by using `var` instead.
 
-# Printing to Screen
+## Printing to Screen
 Juliar has lots of options for printing to the screen. If you just want to print, use `printLine("Hello Me");` . If you know the type, or want to cast it to a different type,
 consider using `printInt(64);`, `printFloat(2.3);`, `printDouble(.312321);`.
 
-# Writing/Opening Files
+## Writing/Opening Files
 
 Juliar uses "Open Format" standard for opening and storing files. Hence, it should potentially work on all Operating Systems. To Open a file just do
 `
 fileOpen("filename");
 `
 
-# Prefix Notation
+## Prefix Notation
 
 Juliar allows prefix notation. That means you can arithmetic functions such as +,-,/,* and % before each operation and it will apply to everything after it.
 For example, you can do:
@@ -128,7 +128,7 @@ This is useful in doing when you are having a huge file.
 
 
 
-### Installing from Source
+## Installing from Source
 
 
 Download the latest version from https://www.github.com/juliarLang/juliarFuture

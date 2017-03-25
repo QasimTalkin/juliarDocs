@@ -10,4 +10,6 @@ Juliar aim is to be a simple cross-platform tool that interprets and compiles th
 
 It's object oriented functional approach that will allow you to code programs in less time and less code.
 
-Juliar runs on every computer that JAVA can run on. That means it you can compile and interpret your programs on any computer, personal device, phone, and tablet.
+Juliar runs on every computer that Java can run on. That means it you can compile and interpret your programs on any computer, personal device, phone, and tablet.
+
+Please check out the menu to get started on the language.

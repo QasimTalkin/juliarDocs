@@ -1,9 +1,9 @@
 # Strings
 
 There are three ways to define strings in Juliar.  
-You can use `'`, `"`, and `\``. 
+You can use `'`, `"`, and <code>`</code>.
 
-## When to use `\`` ?
+## When to use <code>`</code> ?
 
 This feature was added because Juliar can be used as a web server processor.
 When doing websites HTML is most prevelant language. HTML allows you to use
@@ -17,7 +17,7 @@ For example:
 
 with `'` and `"` you would have to escape (either row or button) or you
 would have to change everything to `'` or `"`. This may prove difficult.  
-With Juliar, you can do `\`` where you don't have to escape anything.
+With Juliar, you can do <code>`</code> where you don't have to escape anything.
 Everything gets copied.
 
 ## Concatenating Strings with other strings
