@@ -14,7 +14,7 @@ If you prefer a console/terminal, then open juliarCompiler.jar folder in termina
 JuliarCompiler.jar works in 3 modes. It can be compiled, interpreted, and ran through FastCGI web services.
 
 # Compile
-JuliarCompiler.jar works on all platforms that have JAVA installed. So it is system independent!
+JuliarCompiler.jar works on all platforms that have Java installed. So it is system independent!
 run it in CommandPrompt/Console using the following command:
 
 `
@@ -22,7 +22,7 @@ java -jar JuliarCompiler.jar something.jrl output
 `
 
 Where something.jrl is Juliar script and output is output name.
-Because Juliar compiles directly into JAVA bytecode, Juliar programs can run anywhere JAVA is installed.
+Because Juliar compiles directly into Java bytecode, Juliar programs can run anywhere Java is installed.
 
 # Interpret
 JuliarCompiler.jar can also interpret code for those people that want to tweak and tinker with the code on the go.
@@ -45,9 +45,9 @@ java -jar -DFCGI_PORT=9000 JuliarCompiler.jar
 
 
 # Why?
-You might be wondering, why should you use Juliar instead of JAVA? The reason is that Juliar is less imperative
+You might be wondering, why should you use Juliar instead of Java? The reason is that Juliar is less imperative
 and more functional. It can however be used as Object Oriented programming language. Juliar aim is to provide
-the same features of any modern imperative language such as C++ and JAVA and put a twist by adding functional components.
+the same features of any modern imperative language such as C++ and Java and put a twist by adding functional components.
 Juliar is easy, fast, and fun language to use.
 
 # Creating Juliar File
