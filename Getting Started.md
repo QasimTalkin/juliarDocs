@@ -99,8 +99,9 @@ Variables are declared using one of the following declarations: `int`, `double`,
 decide by using `var` instead.
 
 ## Printing to Screen
-Juliar has lots of options for printing to the screen. If you just want to print, use `printLine("Hello Me");` . If you know the type, or want to cast it to a different type,
-consider using `printInt(64);`, `printFloat(2.3);`, `printDouble(.312321);`.
+There are two function calls you should know in order to print in Juliar.
+They are `printLine` and `print`. The difference is that `printLine` adds
+a new line character, while `print` does not. Common uses `print(64);`, `print(2.3);`, `printLine("Brighter Future");`.
 
 ## Writing/Opening Files
 
