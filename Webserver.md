@@ -11,7 +11,7 @@ to read them.
 
 ## What Web Servers are supported?
 Almost any web server is supported as long as it provides some form of FastCGI protocol.
-We have provided configurations for Apache, NGINX, and Lighttpd. Every operating system is supported.
+We have provided configurations for Apache, NGINX, Lighttpd, and Jetty. Every operating system is supported.
 We suggest using NGINX with juliar.Future. Although, Apache works very well too.
 
 ## Apache
@@ -26,6 +26,11 @@ directory. It will ask you to overwrite the file. click yes.
 Launching lighttpd server is as easy as doing
 `lighttpd -D -f lighttpd.conf`
 This should start the server.
+
+## Jetty
+Copy the jetty.xml file to your Jetty home directory.
+Launch Jetty by doing
+`java -jar $JETTY_HOME/start.jar --add-to-start=fcgi,http,deploy`
 
 ## Starting FastCGI
 Look at `LaunchFCGI.bat` script and `LaunchFCGI.sh` to find out how
