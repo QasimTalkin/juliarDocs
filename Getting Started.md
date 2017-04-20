@@ -11,8 +11,10 @@ If you are a beginner or preffer a Graphical Window, then you can just double cl
 If you prefer a console/terminal, then open juliarCompiler.jar folder in terminal/console. 
 
 ## Modes
-JuliarCompiler.jar works in 3 modes. It can be compiled, interpreted, and ran through FastCGI web services.
+JuliarCompiler.jar works in 4 modes. It can be compiled, interpreted, and ran through FastCGI web services, and ran through an editor.
 
+## Editor Mode
+Instead of using terminal, you can run a built-in editor by double clicking on `JuliarFuture.jar` file. This provides a convenient and easy way to edit, build, interpret, and compile Juliar files. It is currently the recommended way for people starting with the programming language.
 ## Compile
 JuliarCompiler.jar works on all platforms that have Java installed. So it is system independent!
 run it in CommandPrompt/Console using the following command:
