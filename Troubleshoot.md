@@ -10,15 +10,16 @@ Go to `/usr/share/applications` and create a file `myjava.desktop`
 
 Open `myjava.desktop` and put the following:
 
-```[Desktop Entry]
- Name=Java Environment
- Comment=Java Launcher
- Exec=java -jar %f
- Terminal=false
- Type=Application
- Icon=
- MimeType=application/x-java-archive;application/java-archive;application/x-jar;
- NoDisplay=true
+```bash
+[Desktop Entry]
+Name=Java Environment
+Comment=Java Launcher
+Exec=java -jar %f
+Terminal=false
+Type=Application
+Icon=
+MimeType=application/x-java-archive;application/java-archive;application/x-jar;
+NoDisplay=true
 ```
 
 Save the file and logout from your computer.

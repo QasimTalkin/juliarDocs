@@ -7,10 +7,12 @@ programming languages.
 
 A simple example of while loop:
 
-> int x = 0;
-> while(x < 2) {
-> 	x = + 1 x;
-> }
+```
+int x = 0;
+while(x < 2) {
+    x = + 1 x;
+}
+```
 
 In this example x is set to 0. The `while` statement checks 
 and sees that x must be less than 2 and returns true.
@@ -23,12 +25,14 @@ only runs twice.
 You are allowed to run an infinite loop. However, you should have a break statement to exit the loop
 
 A simple example of break:
-> int x = 0;
-> while( 1 ){
->     x = + 1 x;
->     if ( x > 2) {
->        break;
->     }
-> }
+```
+int x = 0;
+while( 1 ){
+    x = + 1 x;
+    if ( x > 2) {
+        break;
+    }
+}
+```
 
 Although breaks are not recommended, they do provide a convenient and easy way to break a while loop.
