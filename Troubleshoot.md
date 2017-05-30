@@ -32,3 +32,7 @@ Now you should be able to launch JuliarCompiler.jar just by double clicking.
 
 If you are still having trouble or unable to do so.
 You can always launch the editor via `java -jar JuliarCompiler.jar -app`
+
+## `Main` Class not found
+
+When you double click on JuliarCompiler.jar you may get an error that the main class could not be found. This is due to using an old version of Java Runtime Environment (JRE). Juliar supports versions 1.8+ (Java 8). Download the latest at https://www.java.com/en/download/
