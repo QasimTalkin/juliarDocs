@@ -34,10 +34,10 @@ Launch Jetty by doing
 
 ## Starting FastCGI
 Look at `LaunchFCGI.bat` script and `LaunchFCGI.sh` to find out how
-to launch JuliarCompiler.jar as FastCGI process. It is very straightforward.
+to launch juliarFuture.jar as FastCGI process. It is very straightforward.
 It is as easy as:
 
 `
-java -jar -DFCGI_PORT=9000 JuliarCompiler.jar
+java -jar -DFCGI_PORT=9000 juliarFuture.jar
 `
 where `-DFCGI_PORT` is the port you want to use for the application.

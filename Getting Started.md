@@ -3,20 +3,20 @@
 ## Download
 The latest stable release can be found at:
 
-https://juliar.org/downloads.php
+https://juliar.org/downloads
 
 ## Install
 
 Download Juliar from 
-https://juliar.org/downloads.php
+https://juliar.org/downloads
 
 After downloading the JAR file, you have 2 ways to launch it.
-If you are a beginner or preffer a Graphical Window, then you can just double click juliarCompiler.jar
+If you are a beginner or preffer a Graphical Window, then you can just double click juliarFuture.jar
 
-If you prefer a console/terminal, then open juliarCompiler.jar folder in terminal/console. 
+If you prefer a console/terminal, then open juliarFuture.jar folder in terminal/console. 
 
 ## Modes
-JuliarCompiler.jar works in 3 modes. It can be compiled, interpreted, ran as FastCGI web service.
+juliarFuture.jar works in 3 modes. It can be compiled, interpreted, ran as FastCGI web service.
 
 ## Editor Mode
 Instead of using terminal, you can run a built-in editor by double clicking on `JuliarFuture.jar` file.
@@ -25,34 +25,34 @@ This provides a convenient and easy way to edit, build, interpret, and compile J
 This method is recommended for people just starting with the programming language.
 
 ## Compile
-JuliarCompiler.jar works on all platforms that have Java installed. So it is system independent!
+juliarFuture.jar works on all platforms that have Java installed. So it is system independent!
 run it in CommandPrompt/Console using the following command:
 
 `
-java -jar JuliarCompiler.jar something.jrl outputJARname
+java -jar juliarFuture.jar something.jrl outputJARname
 `
 
 Where something.jrl is Juliar script and output is output name.
 Because Juliar compiles directly into Java bytecode, Juliar programs can run anywhere Java is installed.
 
 ## Interpret
-JuliarCompiler.jar can also interpret code for those people that want to tweak and tinker the code on the go.
+juliarFuture.jar can also interpret code for those people that want to tweak and tinker the code on the go.
 You can have Juliar interpret by leaving out the output argument
 
 `
-java -jar JuliarCompiler.jar something.jrl
+java -jar juliarFuture.jar something.jrl
 `
 This will interpret the code and output the results on the screen. You can pipe the results to a file by using '>' followed by file name.
 
 ## FastCGI
-JuliarCompiler.jar can also run as web service. You can connect JuliarCompiler.jar
+juliarFuture.jar can also run as web service. You can connect juliarFuture.jar
 to Apache, NGINX, Lighttpd, and many other services to process HTML files and output results to the user. 
-JuliarCompiler.jar
+juliarFuture.jar
 makes it very easy to have a web server running by providing configurations for most popular web servers.
-To launch JuliarCompiler.jar in FastCGI mod:
+To launch juliarFuture.jar in FastCGI mod:
 
 `
-java -jar -DFCGI_PORT=9000 JuliarCompiler.jar
+java -jar -DFCGI_PORT=9000 juliarFuture.jar
 `
 
 

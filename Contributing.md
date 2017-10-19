@@ -1,6 +1,6 @@
 # Welcome to Juliar.Future Project
 
-I would like to thank you for contributing to the *Juliar * Project.
+I would like to thank you for contributing to the Juliar.Future Project.
 The aim of this project is to build a fully functional compiler 
 for *Juliar * Programming language that will compile for use in Java Environments.
 
