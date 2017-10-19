@@ -15,7 +15,7 @@ See Getting Started Section. If you are still having problems, feel free to chec
 
 ## Do you have an IDE or a TextEditor where I can write the code?
 
-Double click on JuliarCompiler.jar and it should launch the editor. If it opens a zip unarchiver, please go to terminal and type `java -jar JuliarCompiler.jar -app`. This will launch Juliar.Future in the editor.
+Double click on JuliarFuture.jar and it should launch the editor. If it opens a zip unarchiver, please go to terminal and type `java -jar JuliarCompiler.jar -app`. This will launch Juliar.Future in the editor.
 
 ## I want to replace Juliar as a replacement of PHP or Perl... How can I do it?
 

@@ -8,13 +8,13 @@ Here are some helpful guidelines for contributing:
 
 ## The *Juliar * Communtiy
 Have an idea or a big feature. Please make sure to post it in our forums
-at https://www.juliar.org/forums . Make sure that you have gotten a response
+at [https://juliar.org/forums](https://juliar.org/forums) . Make sure that you have gotten a response
 from one of the administrators before doing something big. For smaller updates,
 feel free to fork the repo, add examples, and submit pull requests.
 
 ## Bugs
 Bug fixes are always welcomed and are encouraged. If you do not know how to fix a bug,
-please make sure to post it on forums at https://www.juliar.org/forums as well as
+please make sure to post it on forums at [https://juliar.org/forums](https://juliar.org/forums) as well as
 posting it in the issues section of this github page.
 
 ## Styling
