@@ -21,6 +21,21 @@ posting it in the issues section of this github page.
 Please follow the coding outlined at
 https://google.github.io/styleguide/javaguide.html
 
+## Compiling with an IntelliJ IDEA
+We use IntelliJ IDEA in order to have a nice environment to build the project.
+Follow the steps below to setup the IntelliJ environment for development of JuliarFuture.
+
+![Step 1](https://juliar.org/docimage/Contributing1)
+![Step 2](https://juliar.org/docimage/Contributing2)
+![Step 3](https://juliar.org/docimage/Contributing3)
+![Step 4](https://juliar.org/docimage/Contributing4)
+![Step 5](https://juliar.org/docimage/Contributing5)
+![Step 6](https://juliar.org/docimage/Contributing6)
+
+If you have problems compiling, make sure Java is defined in Project settings.
+
+![Step 7](https://juliar.org/docimage/Contributing7)
+![Step 8](https://juliar.org/docimage/Contributing8)
 
 ## Documentation
 Anybody is free to fix the documentation. The Documentation is one of
