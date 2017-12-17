@@ -1,4 +1,4 @@
-# Troubleshooting
+### Troubleshooting
 
 ## Linux Double Click Problem
 

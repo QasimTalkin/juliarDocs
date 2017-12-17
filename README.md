@@ -7,6 +7,7 @@
 The documentation is officially hosted at [https://juliar.org/documentation](https://juliar.org/documentation)
 
 The site ignores this README.md file.  
+This ReadMe file is used only for instructions.
 The "Home" topic is located in Main.md.
 
 Our sites uses Markdown programming language for documentations.

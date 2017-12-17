@@ -1,4 +1,4 @@
-# Welcome to Juliar.Future Project
+### Welcome to Juliar.Future Project
 
 I would like to thank you for contributing to the Juliar.Future Project.
 The aim of this project is to build a fully functional compiler 
@@ -23,6 +23,8 @@ https://google.github.io/styleguide/javaguide.html
 
 ## Compiling with an IntelliJ IDEA
 We use IntelliJ IDEA in order to have a nice environment to build the project.
+We use Gradle wrapper to manage all the dependencies of the project.
+
 Follow the steps below to setup the IntelliJ environment for development of JuliarFuture.
 
 ![Step 1](https://juliar.org/docimage/Contributing1)

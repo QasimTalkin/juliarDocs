@@ -1,4 +1,4 @@
-# Architectural Model
+### Architectural Model
 
 ## Current Juliar Architectural Model
 
