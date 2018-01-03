@@ -2,11 +2,11 @@
 
 I would like to thank you for contributing to the Juliar.Future Project.
 The aim of this project is to build a fully functional compiler 
-for *Juliar * Programming language that will compile for use in Java Environments.
+for Juliar Programming language that will compile for use in Java Environments.
 
 Here are some helpful guidelines for contributing:
 
-## The *Juliar * Communtiy
+## The Juliar Communtiy
 Have an idea or a big feature. Please make sure to post it in our forums
 at [https://juliar.org/forums](https://juliar.org/forums) . Make sure that you have gotten a response
 from one of the administrators before doing something big. For smaller updates,

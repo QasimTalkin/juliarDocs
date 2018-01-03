@@ -1,6 +1,6 @@
 # Juliar Documentation
 
-![juliar.Future](https://cloud.githubusercontent.com/assets/11934545/21415540/c50c8034-c7d8-11e6-9f76-9b37833e6cae.jpg)
+![juliar](https://cloud.githubusercontent.com/assets/11934545/21415540/c50c8034-c7d8-11e6-9f76-9b37833e6cae.jpg)
 
 #### Welcome to Juliar Official Documentation!
 
@@ -20,6 +20,6 @@ and will be automatically updated within 10 minutes of updating
 this repository.
 
 ## Join our slack channel
-To receive an automatic invitation, please fill out this form: https://juliar.org/slack/public/
+To receive an automatic invitation, please fill out this form: https://juliar.org/slack/
 
 Then, once you have the account, the official slack channel is located at: https://juliarlang.slack.com

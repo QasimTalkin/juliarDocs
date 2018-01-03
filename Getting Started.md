@@ -10,61 +10,48 @@ https://juliar.org/downloads
 Download Juliar from 
 https://juliar.org/downloads
 
-After downloading the JAR file, you have 2 ways to launch it.
-If you are a beginner or preffer a Graphical Window, then you can just double click juliarFuture.jar
+You do not need to install anything as Juliar comes in portable pack: `Juliar.jar` that contains everything needed  to run
+and compile making Juliar highly portable.
 
-If you prefer a console/terminal, then open juliarFuture.jar folder in terminal/console. 
 
-## Modes
-juliarFuture.jar works in 3 modes. It can be compiled, interpreted, ran as FastCGI web service.
+## Interpreting through GUI
+You can launch Juliar by double clicking `Juliar.jar`. NOTE: Some Linux versions will open the archive instead of executing it.
+In that case, follow the guidelines specified in troubleshooting. The GUI should be straight forward and easy to use.
+You can also launch the GUI by running `./Juliar.jar` (or `Juliar.jar`) in Terminal/Command Prompt without parameters
+and that would also launch the GUI.
 
-## Editor Mode
-Instead of using terminal, you can run a built-in editor by double clicking on `JuliarFuture.jar` file.
- 
-This provides a convenient and easy way to edit, build, interpret, and compile Juliar files. 
-This method is recommended for people just starting with the programming language.
 
-## Compile
-juliarFuture.jar works on all platforms that have Java installed. So it is system independent!
-run it in CommandPrompt/Console using the following command:
+## Interpreting through Command console
+
+If you do not want to use GUI, but instead just want to interpret a file, simply execute the following:
+`
+java -jar juliar.jar something.jrl
+`
+
+This will output the result to the screen. If you want to save the result to a file, simply do:
 
 `
-java -jar juliarFuture.jar something.jrl outputJARname
+ java -jar juliar.jar something.jrl > outputJARname
 `
 
 Where something.jrl is Juliar script and output is output name.
-Because Juliar compiles directly into Java bytecode, Juliar programs can run anywhere Java is installed.
 
-## Interpret
-juliarFuture.jar can also interpret code for those people that want to tweak and tinker the code on the go.
-You can have Juliar interpret by leaving out the output argument
+NOTE: If you want to distribute the program, you should distribute it with the current version of `Juliar.jar`.
 
-`
-java -jar juliarFuture.jar something.jrl
-`
-This will interpret the code and output the results on the screen. You can pipe the results to a file by using '>' followed by file name.
 
-## FastCGI
-juliarFuture.jar can also run as web service. You can connect juliarFuture.jar
-to Apache, NGINX, Lighttpd, and many other services to process HTML files and output results to the user. 
-juliarFuture.jar
-makes it very easy to have a web server running by providing configurations for most popular web servers.
-To launch juliarFuture.jar in FastCGI mod:
-
-`
-java -jar -DFCGI_PORT=9000 juliarFuture.jar
+## Running a WebServer
+Juliar has a built in server, so whenever Juliar launches its GUI, it creates a server on port `48042`. You can open up your firewall
+or do table forwarding in order to use Juliar as a WebServer. Juliar can also run as a servlet which allows one to use Tomcat
+or any other server that supports Servlet. Some users may prefer to use an external server as it allows more configurations.
 `
 
 
 ## Why?
 You might be wondering, why should you use Juliar instead of any other programming languages.
-The reason is portability, ease of use, and write once and run anywhere.
+The reason is that Juliar is highly portable with no installation. The only requirement is Java Virtual Machine
+environment which is practically available on any platform. With Juliar, you can create rapid prototypes in simple,
+easy to read code. With Juliar, you can code and run on any platform.
 
-Juliar.Future doesn't require you to install anything, so you can take it anywhere on your usb drive.
-
-Juliar.Future is simple to write, no need to know confusing syntax.
-
-Juliar.Future runs in Java. Anywhere Java can run, Juliar can run.
 
 ## Creating Juliar File
 Create a text file called "something.jrl". jrl is the extension juliar uses for its files! You can name it anything you want as long as it has an extension of .jrl.
@@ -153,7 +140,7 @@ int x = 3 + 2 + 5 + 10;
 ## Installing from Source
 
 
-Download the latest version from https://www.github.com/juliarLang/juliarFuture
+Download the latest version from https://www.github.com/juliarLang/juliar
 
 or Clone in Desktop: 
 
