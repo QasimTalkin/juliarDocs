@@ -1,4 +1,4 @@
-### Welcome to Juliar.Future Project
+### Welcome to Juliar Project
 
 I would like to thank you for contributing to the Juliar.Future Project.
 The aim of this project is to build a fully functional compiler 
@@ -7,15 +7,20 @@ for Juliar Programming language that will compile for use in Java Environments.
 Here are some helpful guidelines for contributing:
 
 ## The Juliar Communtiy
-Have an idea or a big feature. Please make sure to post it in our forums
-at [https://juliar.org/forums](https://juliar.org/forums) . Make sure that you have gotten a response
-from one of the administrators before doing something big. For smaller updates,
-feel free to fork the repo, add examples, and submit pull requests.
+Have an idea or a big feature. Please make sure to post it in issues tab on [https://github.com/juliarLang] . 
+For huge updates, make sure you talk to an administrator responsible for Juliar repository
+before implementing it. The feature you might be working in already exists or is planned.
+ For smaller updates, feel free to fork the repo, do the changes, and submit pull requests.
 
 ## Bugs
 Bug fixes are always welcomed and are encouraged. If you do not know how to fix a bug,
-please make sure to post it on forums at [https://juliar.org/forums](https://juliar.org/forums) as well as
-posting it in the issues section of this github page.
+please make sure to post it in slack chat. 
+
+_Login_: [https://juliarlang.slack.com](https://juliarlang.slack.com)
+
+_Registration_: [https://juliar.org/slack](https://juliar.org/slack) 
+
+You can also post it in the issues tab on [https://github.com/juliarLang]
 
 ## Styling
 Please follow the coding outlined at
