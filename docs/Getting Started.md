@@ -40,7 +40,8 @@ NOTE: If you want to distribute the program, you should distribute it with the c
 
 
 ## Running a WebServer
-Juliar has a built in server, so whenever Juliar launches its GUI, it creates a server on port `48042`. You can open up your firewall
+Juliar has a built in server, so whenever Juliar launches its GUI, it creates a server on port `80`. If port 80 is not available,
+your operating system will automatically assign the next available port to Juliar. You can open up your firewall
 or do table forwarding in order to use Juliar as a WebServer. Juliar can also run as a servlet which allows one to use Tomcat
 or any other server that supports Servlet. Some users may prefer to use an external server as it allows more configurations.
 `
