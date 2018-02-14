@@ -5,9 +5,9 @@
 Juliar uses a simple command to open files: fileOpen().
 A simple example:
 
-string x = fileOpen("./test.jrl");
+string x = fileOpen("./test.jlr");
 
-This will open up the file `test.jrl` and store all the contents into the string x. Then you can do whatever you want with the string x.
+This will open up the file `test.jlr` and store all the contents into the string x. Then you can do whatever you want with the string x.
 
 
 ## __getByteFromString
