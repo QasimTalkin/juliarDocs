@@ -1,4 +1,4 @@
-### Getting Started
+# Getting Started
 
 ## Download
 The latest stable release can be found at:

@@ -1,4 +1,4 @@
-### Opening Files
+# Opening Files
 
 ## fileOpen
 

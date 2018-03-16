@@ -1,4 +1,4 @@
-### Web Server
+# Web Server
 
 ## Intro
 Juliar.Future comes with a built in WebServer, but Juliar can run as a servlet. This means that you can use

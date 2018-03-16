@@ -1,4 +1,4 @@
-### Strings
+# Strings
 
 There are three ways to define strings in Juliar.  
 You can use `'`, `"`, and <code>`</code>.

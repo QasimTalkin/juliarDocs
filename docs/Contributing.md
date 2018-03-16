@@ -1,4 +1,4 @@
-### Welcome to Juliar Project
+# Welcome to Juliar Project
 
 I would like to thank you for contributing to the Juliar.Future Project.
 The aim of this project is to build a fully functional compiler 
