@@ -1,1 +1,0 @@
-["Architectural Model.md","Classes.md","Contributing.md","Faqs.md","Functions.md","Getting Started.md","Importing Files.md","Loops.md","Opening Files.md","Strings.md","Troubleshoot.md","Webserver.md"]

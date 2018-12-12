@@ -26,9 +26,9 @@ function dirToArray($dir) {
 <?php
 	echo "Starting....\r\n";
         // Initialize Variables
-	$file = 'doc_structure.txt';
+	$file = dirname(__DIR__).'/doc_structure.txt';
 	
-	$result = dirToArray("docs");	
+	$result = dirToArray(dirname(__DIR__)."/docs");	
 	var_dump($result);
 	$content = json_encode($result);
 	
